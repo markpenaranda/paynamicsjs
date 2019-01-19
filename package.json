@@ -1,0 +1,10 @@
+{
+  "name": "paynamicsjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/bethuel11/paynamicsjs",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
