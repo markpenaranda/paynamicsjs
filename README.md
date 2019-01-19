@@ -1,4 +1,4 @@
-# Paynamics - https://www.paynamics.com/ (https://www.paynamics.com/)
+# Paynamics - [https://www.paynamics.com/](https://www.paynamics.com/)
 
 Paynamics Gateway intergration for NodeJS
 
