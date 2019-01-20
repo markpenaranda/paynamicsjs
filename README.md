@@ -48,6 +48,7 @@ const paymentSignature = paynamics.generateSignature({
 })
 ```
 
+### Serve the HTML with paymentSignature as the value for the form.
 ```
 serve this html to your customer and it will be routed to paynamics' web page payment.
 notice that the value of the form is the string from generateSignature function above..
@@ -65,6 +66,7 @@ notice that the value of the form is the string from generateSignature function 
 </script>
 ```
 
+### Get the result for payment through POST request
 ```
 after the user succesfully entered the card details, 
 paynamics api will POST request to your web api. (notification url)
