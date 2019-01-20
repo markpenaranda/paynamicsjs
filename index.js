@@ -45,7 +45,7 @@ class Paynamics {
     xml = xml + "<orders>";
     xml = xml + "<items>";
     xml = xml + "<Items>";
-    xml = xml + `<itemname>StreetBy Booking Total</itemname><quantity>1</quantity><amount>${$_amount}</amount>`;
+    xml = xml + params.items;
     xml = xml + "</Items>";
     xml = xml + "</items>";
     xml = xml + "</orders>";

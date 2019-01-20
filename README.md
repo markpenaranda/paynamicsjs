@@ -27,6 +27,15 @@ const paynamics = new PN({
   cancel: "https://yourapi.com/cancel" // GET url when the user cancels
 })
 
+const items = `
+<Items>
+  <itemname>Your Items</itemname>
+  <quantity>1</quantity>
+  <amount>50.00</amount>
+</Items>
+`;
+// follow the xml format..
+
 const paymentSignature = paynamics.generateSignature({
   requestid: '', // order id for your app
   ip: '', // ip
@@ -45,6 +54,7 @@ const paymentSignature = paynamics.generateSignature({
   clientip: '',
   amount: '', // set it to 2 decimal places
   currency: '', // PHP
+  items: items,
 })
 ```
 
