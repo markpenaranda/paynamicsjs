@@ -3,6 +3,11 @@
   "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
+  "keywords": [
+    "paynamics",
+    "payment",
+    "gateway"
+  ],
   "homepage": "https://github.com/bethuel11/paynamicsjs",
   "dependencies": {
     "xml2js": "^0.4.19"
