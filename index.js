@@ -44,9 +44,7 @@ class Paynamics {
     xml = xml + "<Request>";
     xml = xml + "<orders>";
     xml = xml + "<items>";
-    xml = xml + "<Items>";
     xml = xml + params.items;
-    xml = xml + "</Items>";
     xml = xml + "</items>";
     xml = xml + "</orders>";
     xml = xml + "<mid>" + $_mid + "</mid>";
